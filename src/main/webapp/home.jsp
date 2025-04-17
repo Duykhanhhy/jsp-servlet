@@ -259,7 +259,7 @@
                         <div class="post-author">
 <%--                            <i class="fas fa-user"></i>--%>
 <%--                            <span>Người dùng: ${post.user.username}</span>--%>
-                            <img src="${pageContext.request.contextPath}/${post.user.avatar}" alt="Avatar" class="user-avatar" onerror="this.src='https://via.placeholder.com/40';">
+                            <img src="${post.user.avatar}" alt="Avatar" class="user-avatar" onerror="this.src='https://via.placeholder.com/40';">
                             <div>
                                 <span>Người dùng: ${post.user.username}</span><br>
                                 <small>Email: ${post.user.email}</small><br>

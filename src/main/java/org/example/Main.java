@@ -11,7 +11,7 @@ public class Main {
 
             // Khởi tạo Tomcat Server
             Tomcat tomcat = new Tomcat();
-            tomcat.setPort(8080);
+            tomcat.setPort(8081);
 
             // Thiết lập base directory
             String baseDir = new File("tomcat").getAbsolutePath();

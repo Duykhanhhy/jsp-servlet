@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private final String jdbcURL = "jdbc:mysql://localhost:3306/social_media?useSSL=false&serverTimezone=UTC";
     private final String jdbcUsername = "root"; //Thay thành username MySQL của bạn
-    private final String jdbcPassword = "quockhanh";    //Thay thành password MySQL của bạn
+    private final String jdbcPassword = "6603";    //Thay thành password MySQL của bạn
 
     static {
         try {
